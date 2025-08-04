@@ -3977,7 +3977,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 
 #main {
-	background-image: url('/images/flores.jpg');
+	background-image: url('../../images/flores.jpg');
 	/* <-- aquí va la ruta de la imagen */
 	background-size: cover;
 	/* o 'contain' dependiendo de lo que necesites */
