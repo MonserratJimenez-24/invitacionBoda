@@ -3589,10 +3589,6 @@ body.is-preload #wrapper.fade-in:before {
 	text-align: center;
 }
 
-#intro+#header {
-	margin-top: -20rem;
-}
-
 #intro+#header .logo {
 	-moz-transform: translateY(2rem);
 	-webkit-transform: translateY(2rem);
@@ -3665,7 +3661,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 		/* Centra verticalmente */
 		align-items: center;
 		/* Centra horizontalmente */
-		min-height: 100vh;
+		min-height: 70vh;
 		/* Asegura pantalla completa */
 		padding: 0 2rem;
 		/* Reduce padding superior/inferior */
