@@ -2773,7 +2773,7 @@ input[type="radio"]:focus+label:before {
 
 .image.fit {
 	display: block;
-	margin: 2.5rem 0;
+	margin: 1.5rem 0;
 	width: 100%;
 }
 
@@ -2802,7 +2802,7 @@ input[type="radio"]:focus+label:before {
 @media screen and (max-width: 736px) {
 
 	.image.fit {
-		margin: 2rem 0;
+		margin: 1rem 0;
 	}
 
 	.image.main {
@@ -3974,6 +3974,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 #main {
 	background-image: url('../../images/flores.jpg');
+
 	/* <-- aquí va la ruta de la imagen */
 	background-size: cover;
 	/* o 'contain' dependiendo de lo que necesites */
@@ -4966,4 +4967,17 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	font-family: Georgia, serif;
 	font-style: italic;
 	color: black;
+	background: #f6f6f6;
+}
+
+
+.count {
+	background: #887c43;
+	border-radius: 16px;
+	/* Bordes redondeados, no círculo */
+	padding: 0.6em 1em;
+	/* Menos espacio alrededor */
+	display: inline-block;
+	color: #fff;
+	font-size: 1em;
 }
